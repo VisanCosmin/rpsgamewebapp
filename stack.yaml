@@ -1,0 +1,16 @@
+resolver: lts-6.20
+compiler: ghcjs-0.2.0.9006020_ghc-7.10.3
+compiler-check: match-exact
+
+packages:
+ - '.'
+extra-deps:
+ - miso-0.18.0.0
+ - jsaddle-warp-0.9.5.0@sha256:8da88795bdb9ebe67c408030415582df4aee289a7c43a5c14940e849c60efa5d
+
+setup-info:
+  ghcjs:
+    source:
+      ghcjs-0.2.0.9006020_ghc-7.10.3:
+         url: http://ghcjs.tolysz.org/lts-6.20-9006020.tar.gz
+         sha1: a6cea90cd8121eee3afb201183c6e9bd6bacd94a
